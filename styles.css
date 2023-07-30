@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    background: #dd97c4;
+    color: #000;
+}
