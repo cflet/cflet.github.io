@@ -14,15 +14,12 @@ body {
     grid-template-columns: minmax(275px, 30%) 70%;
 }
 
+/*section styles*/
 .container-icons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin: 0px 50px 0px;
-}
-
-address {
-    font-style: normal;
 }
 
 .section {
@@ -32,12 +29,16 @@ address {
 
 .section img {
     border-radius: 50px;
-    margin: auto;
+    margin: 2em auto 1em;
     display: block;
+    border: 2px solid aquamarine;
 }
 
 .section h3 {
     text-align: center;
+    background-color: black;
+    color: aqua;
+    margin-top: 2em;
 }
 
 .icon-wrapper {
@@ -53,6 +54,20 @@ svg {
     margin: 5px;
 }
 
+.address {
+    font-style: normal;
+    margin: 0 2em 0;
+}
+
+.aboutme {
+    margin: 0em 2em 0em;
+    min-height: 20em;
+}
+
+
+
+
+/* main styles */
 .main {
     background-color: crimson;
 }
