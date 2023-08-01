@@ -14,15 +14,37 @@ body {
     grid-template-columns: 30% 70%;
 }
 
+address {
+    font-style: normal;
+}
+
 .section {
     min-height: 1000px;
     background-color: aqua;
 }
 
-.main {
-    background-color: crimson;
+.section img {
+    border-radius: 50px;
+    margin: auto;
+    display: block;
 }
 
-address {
-    font-style: normal;
+.section h3 {
+    text-align: center;
+}
+
+.icons {
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    display: inline-grid;
+    margin: 5px;
+}
+
+svg {
+    margin: 5px;
+}
+
+.main {
+    background-color: crimson;
 }
