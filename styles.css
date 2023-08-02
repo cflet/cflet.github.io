@@ -5,13 +5,13 @@
 html,
 body {
     min-height: 100%;
-    background: #dd97c4;
-    color: #000;
+    margin: 0;
+    color: #241468;
 }
 
 .container-page {
     display: grid;
-    grid-template-columns: minmax(275px, 30%) 70%;
+    grid-template-columns: minmax(300px, 350px) minmax(500px, 100%);
 }
 
 /*section styles*/
@@ -19,35 +19,39 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    margin: 0px 50px 0px;
+    margin: 0 4em 0;
 }
 
 .section {
     min-height: 1000px;
-    background-color: aqua;
+    background-color: #FFAEBC;
 }
 
-.section img {
+.profilepic {
     border-radius: 50px;
     margin: 2em auto 1em;
     display: block;
-    border: 2px solid aquamarine;
+    border: 2px solid #9F0D7F;
 }
 
 .section h3 {
     text-align: center;
-    background-color: black;
-    color: aqua;
+    background-color: #9F0D7F;
+    color: #FFAEBC;
     margin-top: 2em;
 }
 
 .icon-wrapper {
     border-radius: 50px;
-    border: 2px solid black;
+    border: 2px solid #9F0D7F;
     padding: 7px 7px 5px 7px;
     display: inline-grid;
     margin: 5px;
     width: 3em;
+}
+
+.icon-wrapper img {
+    color: #9F0D7F;
 }
 
 svg {
@@ -61,13 +65,31 @@ svg {
 
 .aboutme {
     margin: 0em 2em 0em;
-    min-height: 20em;
+    min-height: 17em;
 }
 
 
 
-
 /* main styles */
-.main {
-    background-color: crimson;
+.main {}
+
+.firstname {
+    display: inline-block;
+    margin: 90px 5px 0px 70px;
+    color: #9F0D7F;
+    font-size: 50px;
+}
+
+.lastname {
+    display: inline-block;
+    margin: 90px 0px 0px 0px;
+    font-size: 50px;
+}
+
+.jobtitle {
+    margin: 0px 0px 50px 70px;
+}
+
+.main p {
+    margin: 0em 2em 0em;
 }
