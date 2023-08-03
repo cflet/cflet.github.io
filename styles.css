@@ -15,12 +15,6 @@ body {
 }
 
 /*section styles*/
-.container-icons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-}
-
 .section {
     min-height: 1000px;
     background-color: #FFAEBC;
@@ -33,15 +27,20 @@ body {
     border: 2px solid #9F0D7F;
 }
 
-.section h3 {
+.section h1 {
     text-align: center;
     background-color: #9F0D7F;
     color: #FFAEBC;
-    margin-top: 2em;
+    margin-top: 35px;
+    padding: 5px;
+    font-size: 20px;
 }
 
 .container-icons {
-    margin: 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 0 60px 0;
 }
 
 .container-icons img {
@@ -52,7 +51,6 @@ body {
     margin: 5px;
     width: 3em;
 }
-
 
 
 svg {
@@ -88,11 +86,22 @@ svg {
 }
 
 .jobtitle {
-    margin: 0px 0px 50px 70px;
+    margin: 0px 0px 0px 70px;
 }
 
-.secheader {
-    margin: 2em 2em .75em;
+.semi-line {
+    margin: -5px 0 80px 70px;
+    width: 10%;
+    color: #9F0D7F;
+}
+
+.main-headers {
+    display: inline;
+
+}
+
+.main-icons {
+    display: inline;
 }
 
 .main p {
