@@ -11,7 +11,7 @@ body {
 
 .page_container {
     display: grid;
-    grid-template-columns: minmax(300px, 350px) minmax(500px, 100%);
+    grid-template-columns: minmax(300px, 350px) minmax(600px, 100%);
 }
 
 /*left section styles*/
@@ -80,6 +80,7 @@ svg {
 
 .lastname {
     display: inline-block;
+    /* margin: 90px 5px 0px 70px; */
     margin: 90px 0px 0px 0px;
     font-size: 50px;
 }
