@@ -21,7 +21,7 @@ body {
 }
 
 .profilepic {
-    border-radius: 50px;
+    border-radius: 60px;
     margin: 40px auto 40px;
     display: block;
     border: 2px solid #9F0D7F;
@@ -114,7 +114,7 @@ svg {
 .education li,
 .experience li {
     list-style-position: inside;
-    margin-left: 45px;
+    margin: 20px 0 0 45px;
 }
 
 .education h4,
@@ -138,4 +138,10 @@ svg {
 .experience {
     display: grid;
     grid-template-columns: 25% 75%;
+}
+
+.references {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 35px 0;
 }
