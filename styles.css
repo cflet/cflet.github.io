@@ -73,7 +73,7 @@ svg {
 
 .firstname {
     display: inline-block;
-    margin: 90px 5px 0px 70px;
+    margin: 90px 5px 0px 35px;
     color: #9F0D7F;
     font-size: 50px;
 }
@@ -86,11 +86,11 @@ svg {
 }
 
 .jobtitle {
-    margin: 0px 0px 0px 70px;
+    margin: 0px 0px 0px 35px;
 }
 
 .semi-line {
-    margin: -5px 0 50px 70px;
+    margin: -5px 0 50px 35px;
     width: 10%;
     color: #9F0D7F;
 }
@@ -126,8 +126,13 @@ svg {
 
 .education h5,
 .experience h5 {
-    margin-top: 5px;
+    margin: 5px 0 0 0;
     color: #4c3c90;
+}
+
+.education p,
+.experience p {
+    margin-top: 5px;
 }
 
 .location {
