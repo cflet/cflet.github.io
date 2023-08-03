@@ -22,7 +22,7 @@ body {
 
 .profilepic {
     border-radius: 50px;
-    margin: 40px auto 20px;
+    margin: 40px auto 40px;
     display: block;
     border: 2px solid #9F0D7F;
 }
@@ -70,7 +70,6 @@ svg {
 
 
 /* main styles */
-.main {}
 
 .firstname {
     display: inline-block;
@@ -90,8 +89,13 @@ svg {
 }
 
 .semi-line {
-    margin: -5px 0 80px 70px;
+    margin: -5px 0 50px 70px;
     width: 10%;
+    color: #9F0D7F;
+}
+
+.full-line {
+    margin: 5px 35px 10px;
     color: #9F0D7F;
 }
 
@@ -102,8 +106,36 @@ svg {
 
 .main-icons {
     display: inline;
+    margin: 40px 15px 0 35px;
 }
 
-.main p {
-    margin: 0em 2em 0em;
+/*education section */
+
+.education li,
+.experience li {
+    list-style-position: inside;
+    margin-left: 45px;
+}
+
+.education h4,
+.experience h4 {
+    margin-bottom: 0px;
+    color: #241468;
+}
+
+.education h5,
+.experience h5 {
+    margin-top: 5px;
+    color: #4c3c90;
+}
+
+.location {
+    margin: 0px 0 0 60px;
+}
+
+
+.education,
+.experience {
+    display: grid;
+    grid-template-columns: 25% 75%;
 }
