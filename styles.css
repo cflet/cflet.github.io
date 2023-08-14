@@ -89,13 +89,13 @@ svg {
     margin: 0px 0px 0px 35px;
 }
 
-.semi-line {
+.semi_line {
     margin: -5px 0 50px 35px;
     width: 10%;
     color: #9F0D7F;
 }
 
-.full-line {
+.full_line {
     margin: 5px 35px 10px;
     color: #9F0D7F;
 }
