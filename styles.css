@@ -112,8 +112,8 @@ svg {
 
 /*education section */
 
-.education li,
-.experience li {
+.education ul li,
+.experience ul li {
     list-style-position: inside;
     margin: 20px 0 0 5px;
 }
