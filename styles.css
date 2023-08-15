@@ -40,7 +40,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    margin: 0 60px 0;
+    margin: 0 60px 20px;
 }
 
 .left_icon_container img {
@@ -63,7 +63,7 @@ svg {
 }
 
 .aboutme {
-    margin: 0 30px 0;
+    margin: 30px 30px 0;
     min-height: 450px;
 }
 
@@ -115,7 +115,7 @@ svg {
 .education li,
 .experience li {
     list-style-position: inside;
-    margin: 20px 0 0 45px;
+    margin: 20px 0 0 5px;
 }
 
 .education h4,
@@ -157,7 +157,6 @@ svg {
 }
 
 
-.references p,
-email {
+.references p {
     margin: 5px;
 }
